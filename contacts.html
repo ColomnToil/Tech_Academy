@@ -13,8 +13,56 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header></header>
-    <main class="row justify-content-center w-100 mx-auto">
+    <header>
+      <nav
+        class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top"
+      >
+        <div class="container">
+          <a class="navbar-brand fw-bold text-dark" href="index.html"
+            >Tech_Academy</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#courses"
+                  >Курсы</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">О нас</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#testimonials">Отзывы</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacts.html">Контакты</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Поиск курсов"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-dark" type="submit">Найти</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="row justify-content-center w-100 mx-auto m-5">
       <section class="w-50 d-flex justify-content-center">
         <form action="" class="w-50 d-flex flex-column">
           <h2 class="fs-5 m-4 text-center">
@@ -63,6 +111,21 @@
         </div>
       </section>
     </main>
-    <footer></footer>
+    <footer class="bg-dark text-white py-4">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <p class="mb-0">© 2025 Tech_Academy. Все права защищены.</p>
+          </div>
+          <div class="col-md-6 text-md-end">
+            <a href="#" class="text-white me-3"
+              ><i class="bi bi-telegram"></i
+            ></a>
+            <a href="#" class="text-white me-3"><i class="bi bi-vk"></i></a>
+            <a href="#" class="text-white"><i class="bi bi-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
